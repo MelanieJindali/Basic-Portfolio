@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+}
+
+li {
+    display: inline-flex;
+    list-style-type: none;
+    border-right: 1px solid #777777;
+    padding: 20px;
+    color: #777777;
+    text-align: center;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.header {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.about {
+    color: #4aaaa5;
+}
+
+p {
+    color: #777777;
+    
+}
+
