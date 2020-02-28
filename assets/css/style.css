@@ -1,13 +1,13 @@
-.container1 {
+.nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 20px solid white;
 }
 
-.item {
-    align-self: flex-end;
-}
 
 li {
-    display: inline-block;
+    display: inline;
     list-style-type: none;
     border-right: 1px solid #777777;
     color: #777777;
@@ -35,6 +35,7 @@ li:last-child {
 ul {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    font-size: small;
 }
 
 p {
@@ -43,17 +44,20 @@ p {
 
 }
 
-.container2 {
+.container {
     border: 1px solid #dddddd;
     background-color: #ffffff;
     padding: 20px;
-    display: inline-block;
 }
 
 body {
     max-width: 960px;
     margin: auto;
-    background-image: url(spikes.png);
+}
+
+.background {
+    background-image: url('../images/spikes.png');
+    padding: auto;
 }
 
 .footer {
@@ -61,4 +65,37 @@ body {
     margin: auto;
     text-align: center;
     color: white;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+    bottom: 0px;
+    font-size: 25%;
+    padding-top: 15px;
+}
+
+.main {
+    display: inline;
+    flex-wrap: wrap;
+}
+
+#pic {
+    margin-right: 0px;
+}
+
+.box { 
+    padding: 50 50px; 
+    border: 1px solid #777777; 
+    box-sizing: border-box; 
+    margin-top: 2px; 
+    margin-bottom: 16px;
+    width: 100%;
+
+}
+
+#message {
+    padding: 0px 80px 50px 0px; 
+    border: 1px solid #777777; 
+    box-sizing: border-box; 
+    margin-top: 2px; 
+    margin-bottom: 16px;
+    width: 100%;
 }
